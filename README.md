@@ -2,13 +2,17 @@
 
 心理咨询问答语料库，仅限研究用途。
 
-```
-pip install efaqa-corpus-zh
-```
+## 为什么发布这个语料库
+
+心理咨询中应用人工智能，是我们认为非常有意义的一个探索。我们愿意和更多人合作，把目前领先的人工智能技术，在心理咨询不同场景下落地。扣门的，就给他开门，愿每个人都有自己的心理咨询师。
+
+<p align="center">-- <a href="https://mp.weixin.qq.com/s/nYXfWp-J2dB9I-iHLWJEuw">派特心理</a></p>
 
 # 数据集介绍
 
 心理咨询问答语料库（以下也称为“**数据集**”，“**语料库**”）是为应用人工智能技术于心理咨询领域制作的语料。据我们所知，这是心理咨询领域首个开放的 QA 语料库，包括 20,000 条心理咨询数据，也是公开的最大的中文心理咨询对话语料。数据集内容丰富，不但具备多轮对话内容，也有分类等信息，制作过程耗费大量时间和精力，比如标注过程是面向多轮对话，平均每条标记耗时 1 分钟。
+
+数据集由斯坦福大学，UCLA 和台湾辅仁大学临床心理学等心理学专业人士参与建设，并由 Chatopera 和诸多志愿者合作完成。
 
 数据文件位置[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efaqa-corpus-zh/blob/master/data/efaqa-corpus-zh.utf8.gz)，该文件为 Gzip 压缩，utf8 编码，每行一条数据，每条为 JSON 格式字符串，格式如下：
 
@@ -228,7 +232,7 @@ pip install efaqa-corpus-zh
 
 ### Python
 
-为了方便使用，数据集发布到 [https://pypi.org/](https://pypi.org/project/efaqa-corpus-zh/) 上，使用 `pip` 下载安装。
+为了方便使用，数据集发布到 [https://pypi.org/project/efaqa-corpus-zh/](https://pypi.org/project/efaqa-corpus-zh/) 上，使用 `pip` 下载安装。
 
 ```
 pip install efaqa-corpus-zh
@@ -238,8 +242,12 @@ pip install efaqa-corpus-zh
 
 ```
 import efaqa_corpus_zh
-for x in efaqa_corpus_zh.load(): print(x["title"])
+l = list(efaqa_corpus_zh.load())
+print("size: %s" % len(l))
+print(l[0]["title"])
 ```
+
+初次执行 `load` 接口，会下载数据，数据在 Github 上，请确保网络可以访问到https://github.com。下载速度取决于网络质量，目前数据集压缩包大小~8MB。
 
 ### 其它语言
 
@@ -271,7 +279,7 @@ for x in efaqa_corpus_zh.load(): print(x["title"])
 
 语料库为主观标注，鉴于心理咨询的严肃性和重要性，语料制作时尽可能保证数据的准确性，但是无法保证 100%准确，对于因数据内容不当产生的后果，本团队不承担任何法律责任。
 
-Emotional First Aid Dataset, Chatopera Inc., https://github.com/chatopera/efaqa-corpus-zh, 04 22, 2020
+Emotional First Aid Dataset, Chatopera Inc., https://github.com/chatopera/efaqa-corpus-zh, Apr. 22th, 2020
 
 ## GPL 3.0 许可协议
 
@@ -293,7 +301,9 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 ## 联系我们
 
-研究、商业等事项，查看[https://www.chatopera.com/mail.html](https://www.chatopera.com/mail.html)。
+获得更多数据用于研究或商业产品等事项
+
+联系方式查看[https://www.chatopera.com/mail.html](https://www.chatopera.com/mail.html)。
 
 [![chatoper banner][co-banner-image]][co-url]
 
