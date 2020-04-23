@@ -41,7 +41,7 @@
   </tr>
   <tr>
     <td>owner</td>
-    <td colspan="3">发布者（脱敏后）</td>
+    <td colspan="3">咨询者（脱敏后）</td>
     <td>string</td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@
   </tr>
   <tr>
     <td>value</td>
-    <td colspan="2">消息内容</td>
+    <td colspan="2">消息文本内容</td>
     <td>string</td>
   </tr>
   <tr>
@@ -113,6 +113,8 @@
     <td>boolean</td>
   </tr>
 </table>
+
+**【注意：】sender 的值是`owner`代表消息是咨询者发送的；值是`audience`代表消息是网友发布的，网友可能是心理咨询师，也可能不是。**
 
 ## 数据示例
 
@@ -262,6 +264,16 @@ print(l[0]["title"])
 志愿者成员信息: [https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers](https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers)，大家分布在中国大陆、法国、美国和加拿大，标注工作占据了大家很多闲暇时间和休息时间，对此表达特别敬意！
 
 同时，现在我们依然在招募志愿者，招募介绍 [https://github.com/chatopera/efaqa-corpus-zh/wiki](https://github.com/chatopera/efaqa-corpus-zh/wiki)。
+
+## 在线数据平台
+
+为帮助大家更好的使用数据集，我们也录入到不同在线数据平台。
+
+[Kaggle](https://www.kaggle.com/samurais/emotional-first-aid-dataset)
+
+[Baidu AI Studio](https://aistudio.baidu.com/aistudio/datasetdetail/31443)
+
+[天池实验室](https://tianchi.aliyun.com/dataset/dataDetail?dataId=61868)
 
 ## 媒体报导
 
