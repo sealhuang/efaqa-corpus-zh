@@ -4,7 +4,7 @@ LONGDOC = """
 efaqa-corpus-zh
 =====================
 
-Emotional Frist Aid Dataset, 心理咨询问答语料库
+Emotional First Aid Dataset, 心理咨询问答语料库
 
 Welcome
 -------
@@ -25,8 +25,8 @@ Welcome
 """
 
 setup(name='efaqa_corpus_zh',
-      version='0.1',
-      description='Emotional Frist Aid Dataset, 心理咨询问答语料库',
+      version='0.2',
+      description='Emotional First Aid Dataset, 心理咨询问答语料库',
       long_description=LONGDOC,
       author='Hai Liang Wang',
       author_email='hain@chatopera.com',
