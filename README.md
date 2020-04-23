@@ -2,6 +2,8 @@
 
 心理咨询问答语料库，仅限研究用途。
 
+[https://github.com/chatopera/efaqa-corpus-zh](https://github.com/chatopera/efaqa-corpus-zh)
+
 ## 为什么发布这个语料库
 
 心理咨询中应用人工智能，是我们认为非常有意义的一个探索。我们愿意和更多人合作，把目前领先的人工智能技术，在心理咨询不同场景下落地。扣门的，就给他开门，愿每个人都有自己的心理咨询师。
@@ -247,13 +249,23 @@ print("size: %s" % len(l))
 print(l[0]["title"])
 ```
 
-初次执行 `load` 接口，会下载数据，数据在 Github 上，请确保网络可以访问到https://github.com。下载速度取决于网络质量，目前数据集压缩包大小~8MB。
+初次执行 `load` 接口，会下载数据，数据在 Github 上，请确保网络可以访问到[https://github.com](https://github.com)。下载速度取决于网络质量，目前数据集压缩包大小~8MB。
 
 ### 其它语言
 
 如果您使用其它编程语言，那么直接先下载数据文件[efaqa-corpus-zh.utf8.gz](https://github.com/chatopera/efaqa-corpus-zh/blob/master/data/efaqa-corpus-zh.utf8.gz)，然后使用 Gzip 解压工具解压，得到文本文件，然后按行读取。
 
+## 标注志愿者
+
+本语料有相当一部分是网络招募志愿者完成，而且不乏心理学专业人士，或者对心理学有浓厚兴趣的爱心人士，出于对数据质量的严格要求，我们的招募过程是认真对待的，加入的志愿者也是非常积极的，在此特别感谢他们的贡献！他们不辞辛苦，愿意为人工智能技术应用于心理咨询行业日夜工作，终于有了这个数据集！
+
+志愿者成员信息: [https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers](https://github.com/chatopera/efaqa-corpus-zh/wiki/Volunteers)，大家分布在中国大陆、法国、美国和加拿大，标注工作占据了大家很多闲暇时间和休息时间，对此表达特别敬意！
+
+同时，现在我们依然在招募志愿者，招募介绍 [https://github.com/chatopera/efaqa-corpus-zh/wiki](https://github.com/chatopera/efaqa-corpus-zh/wiki)。
+
 ## 媒体报导
+
+[52NLP: Emotional First Aid Dataset, 心理咨询问答语料库](http://www.52nlp.cn/)
 
 [通向心理咨询的未来之路|派特心理](https://zhuanlan.zhihu.com/p/128632328)
 
