@@ -4,13 +4,13 @@
 
 [https://github.com/chatopera/efaqa-corpus-zh](https://github.com/chatopera/efaqa-corpus-zh)
 
-|                                                                           |                                                                          |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [数据集介绍](https://github.com/chatopera/efaqa-corpus-zh#数据集介绍)     | [项目背景](https://github.com/chatopera/efaqa-corpus-zh#项目背景)        |
-| [安装使用](https://github.com/chatopera/efaqa-corpus-zh#安装使用)         | [语料文件](https://github.com/chatopera/efaqa-corpus-zh#语料文件)        |
-| [在线数据平台](https://github.com/chatopera/efaqa-corpus-zh#在线数据平台) | [心理问答 API](https://github.com/chatopera/efaqa-corpus-zh#心理问答API) |
-| [标注志愿者](https://github.com/chatopera/efaqa-corpus-zh#标注志愿者)     | [媒体报导](https://github.com/chatopera/efaqa-corpus-zh#媒体报导)        |
-| [声明](https://github.com/chatopera/efaqa-corpus-zh#声明)                 | [联系我们](https://github.com/chatopera/efaqa-corpus-zh#联系我们)        |
+|                                                                           |                                                                                                       |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [数据集介绍](https://github.com/chatopera/efaqa-corpus-zh#数据集介绍)     | [项目背景](https://github.com/chatopera/efaqa-corpus-zh#项目背景)                                     |
+| [安装使用](https://github.com/chatopera/efaqa-corpus-zh#安装使用)         | [语料文件](https://github.com/chatopera/efaqa-corpus-zh#语料文件)                                     |
+| [在线数据平台](https://github.com/chatopera/efaqa-corpus-zh#在线数据平台) | [心理问答 API](https://github.com/chatopera/efaqa-corpus-zh#%E5%BF%83%E7%90%86%E9%97%AE%E7%AD%94-api) |
+| [标注志愿者](https://github.com/chatopera/efaqa-corpus-zh#标注志愿者)     | [媒体报导](https://github.com/chatopera/efaqa-corpus-zh#媒体报导)                                     |
+| [声明](https://github.com/chatopera/efaqa-corpus-zh#声明)                 | [联系我们](https://github.com/chatopera/efaqa-corpus-zh#联系我们)                                     |
 
 ## 为什么发布这个语料库
 
@@ -280,6 +280,8 @@ print(l[0]["title"])
 作为心理咨询平台，心理健康服务开发者，如何获得智能问答服务呢？如果不想从零开始，有没有成熟的方案呢？我们称之为`心理问答 API`。伴随着我们标注数据量的累积，我们也在完善利用这些数据研发的对话服务，现在已经在`Chatopera云服务`内上线，通过使用 SDK，几行代码立刻接入`心理问答 API`。
 
 `心理问答 API` 包括`单轮对话`和`多轮对话`，详细使用文档参考[https://docs.chatopera.com/products/psych-assistant/api.html](https://docs.chatopera.com/products/psych-assistant/api.html)。
+
+![](./assets/1.jpg)
 
 ## 标注志愿者
 
