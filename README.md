@@ -283,6 +283,14 @@ print(l[0]["title"])
 
 ![](./assets/1.jpg)
 
+[心理问答机器人示例程序](https://github.com/chatopera/efaqa-bot-demo)：
+
+```
+https://github.com/chatopera/efaqa-bot-demo
+```
+
+![](https://github.com/chatopera/efaqa-bot-demo/raw/master/assets/1.jpg)
+
 ## 标注志愿者
 
 本语料有相当一部分是网络招募志愿者完成，而且不乏心理学专业人士，或者对心理学有浓厚兴趣的爱心人士，出于对数据质量的严格要求，我们的招募过程是认真对待的，加入的志愿者也是非常积极的，在此特别感谢他们的贡献！他们不辞辛苦，愿意为人工智能技术应用于心理咨询行业日夜工作，终于有了这个数据集！
