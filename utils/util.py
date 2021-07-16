@@ -9,10 +9,10 @@ def export_chats(raw_info, opt_file):
     """Export chats to `opt_file` from raw data."""
     with open(opt_file, 'w') as optf:
         for item in raw_info:
-            optf.write('\n'+item['title']+'\n')
+            optf.write('\ntitle: %s\n'%(item['title']))
             chat_list = item['chats']
             for line in chat_list:
-                optf.write(line['value']+'\n')
+                optf.write('%s：%s\n'%(line['sender'], line['value']))
 
 
 if __name__ == '__main__':
